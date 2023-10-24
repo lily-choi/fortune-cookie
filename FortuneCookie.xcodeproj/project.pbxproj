@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91302112AE7DD91005F46A9 /* FortuneCookieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */; };
+		D91302132AE7DD91005F46A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91302122AE7DD91005F46A9 /* ContentView.swift */; };
+		D91302152AE7DD95005F46A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91302142AE7DD95005F46A9 /* Assets.xcassets */; };
+		D91302192AE7DD95005F46A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91302182AE7DD95005F46A9 /* Preview Assets.xcassets */; };
+		D91302232AE7DD95005F46A9 /* FortuneCookieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91302222AE7DD95005F46A9 /* FortuneCookieTests.swift */; };
+		D913022D2AE7DD95005F46A9 /* FortuneCookieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913022C2AE7DD95005F46A9 /* FortuneCookieUITests.swift */; };
+		D913022F2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913022E2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D913021F2AE7DD95005F46A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91302052AE7DD91005F46A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D913020C2AE7DD91005F46A9;
+			remoteInfo = FortuneCookie;
+		};
+		D91302292AE7DD95005F46A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91302052AE7DD91005F46A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D913020C2AE7DD91005F46A9;
+			remoteInfo = FortuneCookie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D913020D2AE7DD91005F46A9 /* FortuneCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieApp.swift; sourceTree = "<group>"; };
+		D91302122AE7DD91005F46A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D91302142AE7DD95005F46A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91302162AE7DD95005F46A9 /* FortuneCookie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FortuneCookie.entitlements; sourceTree = "<group>"; };
+		D91302182AE7DD95005F46A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D913021E2AE7DD95005F46A9 /* FortuneCookieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneCookieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91302222AE7DD95005F46A9 /* FortuneCookieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieTests.swift; sourceTree = "<group>"; };
+		D91302282AE7DD95005F46A9 /* FortuneCookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneCookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D913022C2AE7DD95005F46A9 /* FortuneCookieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieUITests.swift; sourceTree = "<group>"; };
+		D913022E2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D913020A2AE7DD91005F46A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913021B2AE7DD95005F46A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91302252AE7DD95005F46A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D91302042AE7DD91005F46A9 = {
+			isa = PBXGroup;
+			children = (
+				D913020F2AE7DD91005F46A9 /* FortuneCookie */,
+				D91302212AE7DD95005F46A9 /* FortuneCookieTests */,
+				D913022B2AE7DD95005F46A9 /* FortuneCookieUITests */,
+				D913020E2AE7DD91005F46A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D913020E2AE7DD91005F46A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D913020D2AE7DD91005F46A9 /* FortuneCookie.app */,
+				D913021E2AE7DD95005F46A9 /* FortuneCookieTests.xctest */,
+				D91302282AE7DD95005F46A9 /* FortuneCookieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D913020F2AE7DD91005F46A9 /* FortuneCookie */ = {
+			isa = PBXGroup;
+			children = (
+				D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */,
+				D91302122AE7DD91005F46A9 /* ContentView.swift */,
+				D91302142AE7DD95005F46A9 /* Assets.xcassets */,
+				D91302162AE7DD95005F46A9 /* FortuneCookie.entitlements */,
+				D91302172AE7DD95005F46A9 /* Preview Content */,
+			);
+			path = FortuneCookie;
+			sourceTree = "<group>";
+		};
+		D91302172AE7DD95005F46A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D91302182AE7DD95005F46A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D91302212AE7DD95005F46A9 /* FortuneCookieTests */ = {
+			isa = PBXGroup;
+			children = (
+				D91302222AE7DD95005F46A9 /* FortuneCookieTests.swift */,
+			);
+			path = FortuneCookieTests;
+			sourceTree = "<group>";
+		};
+		D913022B2AE7DD95005F46A9 /* FortuneCookieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D913022C2AE7DD95005F46A9 /* FortuneCookieUITests.swift */,
+				D913022E2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift */,
+			);
+			path = FortuneCookieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D913020C2AE7DD91005F46A9 /* FortuneCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91302322AE7DD95005F46A9 /* Build configuration list for PBXNativeTarget "FortuneCookie" */;
+			buildPhases = (
+				D91302092AE7DD91005F46A9 /* Sources */,
+				D913020A2AE7DD91005F46A9 /* Frameworks */,
+				D913020B2AE7DD91005F46A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneCookie;
+			productName = FortuneCookie;
+			productReference = D913020D2AE7DD91005F46A9 /* FortuneCookie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D913021D2AE7DD95005F46A9 /* FortuneCookieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91302352AE7DD95005F46A9 /* Build configuration list for PBXNativeTarget "FortuneCookieTests" */;
+			buildPhases = (
+				D913021A2AE7DD95005F46A9 /* Sources */,
+				D913021B2AE7DD95005F46A9 /* Frameworks */,
+				D913021C2AE7DD95005F46A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D91302202AE7DD95005F46A9 /* PBXTargetDependency */,
+			);
+			name = FortuneCookieTests;
+			productName = FortuneCookieTests;
+			productReference = D913021E2AE7DD95005F46A9 /* FortuneCookieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D91302272AE7DD95005F46A9 /* FortuneCookieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91302382AE7DD95005F46A9 /* Build configuration list for PBXNativeTarget "FortuneCookieUITests" */;
+			buildPhases = (
+				D91302242AE7DD95005F46A9 /* Sources */,
+				D91302252AE7DD95005F46A9 /* Frameworks */,
+				D91302262AE7DD95005F46A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D913022A2AE7DD95005F46A9 /* PBXTargetDependency */,
+			);
+			name = FortuneCookieUITests;
+			productName = FortuneCookieUITests;
+			productReference = D91302282AE7DD95005F46A9 /* FortuneCookieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D91302052AE7DD91005F46A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D913020C2AE7DD91005F46A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D913021D2AE7DD95005F46A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D913020C2AE7DD91005F46A9;
+					};
+					D91302272AE7DD95005F46A9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D913020C2AE7DD91005F46A9;
+					};
+				};
+			};
+			buildConfigurationList = D91302082AE7DD91005F46A9 /* Build configuration list for PBXProject "FortuneCookie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D91302042AE7DD91005F46A9;
+			productRefGroup = D913020E2AE7DD91005F46A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D913020C2AE7DD91005F46A9 /* FortuneCookie */,
+				D913021D2AE7DD95005F46A9 /* FortuneCookieTests */,
+				D91302272AE7DD95005F46A9 /* FortuneCookieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D913020B2AE7DD91005F46A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91302192AE7DD95005F46A9 /* Preview Assets.xcassets in Resources */,
+				D91302152AE7DD95005F46A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913021C2AE7DD95005F46A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91302262AE7DD95005F46A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91302092AE7DD91005F46A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91302132AE7DD91005F46A9 /* ContentView.swift in Sources */,
+				D91302112AE7DD91005F46A9 /* FortuneCookieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D913021A2AE7DD95005F46A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91302232AE7DD95005F46A9 /* FortuneCookieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91302242AE7DD95005F46A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913022F2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift in Sources */,
+				D913022D2AE7DD95005F46A9 /* FortuneCookieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D91302202AE7DD95005F46A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D913020C2AE7DD91005F46A9 /* FortuneCookie */;
+			targetProxy = D913021F2AE7DD95005F46A9 /* PBXContainerItemProxy */;
+		};
+		D913022A2AE7DD95005F46A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D913020C2AE7DD91005F46A9 /* FortuneCookie */;
+			targetProxy = D91302292AE7DD95005F46A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D91302302AE7DD95005F46A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D91302312AE7DD95005F46A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D91302332AE7DD95005F46A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FortuneCookie/FortuneCookie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FortuneCookie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lily-app.FortuneCookie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D91302342AE7DD95005F46A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FortuneCookie/FortuneCookie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FortuneCookie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lily-app.FortuneCookie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D91302362AE7DD95005F46A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lily-app.FortuneCookieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneCookie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FortuneCookie";
+			};
+			name = Debug;
+		};
+		D91302372AE7DD95005F46A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lily-app.FortuneCookieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneCookie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FortuneCookie";
+			};
+			name = Release;
+		};
+		D91302392AE7DD95005F46A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lily-app.FortuneCookieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortuneCookie;
+			};
+			name = Debug;
+		};
+		D913023A2AE7DD95005F46A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lily-app.FortuneCookieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FortuneCookie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D91302082AE7DD91005F46A9 /* Build configuration list for PBXProject "FortuneCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91302302AE7DD95005F46A9 /* Debug */,
+				D91302312AE7DD95005F46A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91302322AE7DD95005F46A9 /* Build configuration list for PBXNativeTarget "FortuneCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91302332AE7DD95005F46A9 /* Debug */,
+				D91302342AE7DD95005F46A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91302352AE7DD95005F46A9 /* Build configuration list for PBXNativeTarget "FortuneCookieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91302362AE7DD95005F46A9 /* Debug */,
+				D91302372AE7DD95005F46A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91302382AE7DD95005F46A9 /* Build configuration list for PBXNativeTarget "FortuneCookieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91302392AE7DD95005F46A9 /* Debug */,
+				D913023A2AE7DD95005F46A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D91302052AE7DD91005F46A9 /* Project object */;
+}

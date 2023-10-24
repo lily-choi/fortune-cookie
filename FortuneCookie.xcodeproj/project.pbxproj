@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D91302112AE7DD91005F46A9 /* FortuneCookieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */; };
-		D91302132AE7DD91005F46A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91302122AE7DD91005F46A9 /* ContentView.swift */; };
+		D91302132AE7DD91005F46A9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91302122AE7DD91005F46A9 /* MainView.swift */; };
 		D91302152AE7DD95005F46A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91302142AE7DD95005F46A9 /* Assets.xcassets */; };
 		D91302192AE7DD95005F46A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91302182AE7DD95005F46A9 /* Preview Assets.xcassets */; };
 		D91302232AE7DD95005F46A9 /* FortuneCookieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91302222AE7DD95005F46A9 /* FortuneCookieTests.swift */; };
 		D913022D2AE7DD95005F46A9 /* FortuneCookieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913022C2AE7DD95005F46A9 /* FortuneCookieUITests.swift */; };
 		D913022F2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913022E2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift */; };
+		D913023C2AE7DFCD005F46A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913023B2AE7DFCD005F46A9 /* ContentView.swift */; };
+		D913023E2AE7DFF0005F46A9 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */; };
+		D91302402AE7E00B005F46A9 /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = D913023F2AE7E00B005F46A9 /* Sample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		D913020D2AE7DD91005F46A9 /* FortuneCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieApp.swift; sourceTree = "<group>"; };
-		D91302122AE7DD91005F46A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D91302122AE7DD91005F46A9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D91302142AE7DD95005F46A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91302162AE7DD95005F46A9 /* FortuneCookie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FortuneCookie.entitlements; sourceTree = "<group>"; };
 		D91302182AE7DD95005F46A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		D91302282AE7DD95005F46A9 /* FortuneCookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneCookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913022C2AE7DD95005F46A9 /* FortuneCookieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieUITests.swift; sourceTree = "<group>"; };
 		D913022E2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneCookieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D913023B2AE7DFCD005F46A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D913023F2AE7E00B005F46A9 /* Sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */,
-				D91302122AE7DD91005F46A9 /* ContentView.swift */,
+				D913023F2AE7E00B005F46A9 /* Sample.json */,
+				D913023B2AE7DFCD005F46A9 /* ContentView.swift */,
+				D91302122AE7DD91005F46A9 /* MainView.swift */,
+				D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */,
 				D91302142AE7DD95005F46A9 /* Assets.xcassets */,
 				D91302162AE7DD95005F46A9 /* FortuneCookie.entitlements */,
 				D91302172AE7DD95005F46A9 /* Preview Content */,
@@ -235,6 +244,7 @@
 			files = (
 				D91302192AE7DD95005F46A9 /* Preview Assets.xcassets in Resources */,
 				D91302152AE7DD95005F46A9 /* Assets.xcassets in Resources */,
+				D91302402AE7E00B005F46A9 /* Sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91302132AE7DD91005F46A9 /* ContentView.swift in Sources */,
+				D913023E2AE7DFF0005F46A9 /* ContentViewModel.swift in Sources */,
+				D91302132AE7DD91005F46A9 /* MainView.swift in Sources */,
 				D91302112AE7DD91005F46A9 /* FortuneCookieApp.swift in Sources */,
+				D913023C2AE7DFCD005F46A9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

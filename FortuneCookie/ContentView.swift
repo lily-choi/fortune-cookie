@@ -6,12 +6,31 @@
 //
 
 import SwiftUI
+import AVFoundation
+
+var audioPlayer: AVAudioPlayer?
+
+func playSoundEffect() {
+    guard let soundURL = Bundle.main.url(forResource: "crun", withExtension: "mp3") else {
+        return
+    }
+
+    do {
+        audioPlayer = try AVAudioPlayer(contentsOf: soundURL)
+        audioPlayer?.prepareToPlay()
+        audioPlayer?.play()
+    } catch {
+        print("Error: \(error.localizedDescription)")
+    }
+}
 
 struct ContentsView: View {
     @Environment(\.presentationMode) var presentationMode
     @StateObject var viewModel = ContentViewModel()
     @State var randomItem: ContentViewModel.Item?
     @State var appeared: Double = 0.0
+    
+    @EnvironmentObject var firestoreManager: FireStoreManager
     
     var body: some View {
         VStack {
@@ -27,7 +46,6 @@ struct ContentsView: View {
                         .font(.hanafont(.semibold, size: 28))
                         .frame(minHeight: 200)
                         .multilineTextAlignment(.center)
-//                        .padding(EdgeInsets(top: 120, leading: 0, bottom: 20, trailing: 0))
                 }
             }
         
@@ -38,6 +56,7 @@ struct ContentsView: View {
                         appeared = 0.0
                     }
                 }else{
+                    playSoundEffect()
                     withAnimation {
                         randomItem = viewModel.randomItem()
                         appeared = 1.0
@@ -52,7 +71,7 @@ struct ContentsView: View {
    
         }
         .onAppear{
-            viewModel.fetchData()
+          viewModel.fetchData()
         }
         .onDisappear {
             withAnimation{
@@ -64,11 +83,6 @@ struct ContentsView: View {
                     Button(action: {
                         presentationMode.wrappedValue.dismiss()
                     }) {
-//                        HStack {
-//                            Text("포춘쿠키 ◡̎")
-//                                .font(.mainfont(.semibold, size: 18))
-//                                .foregroundColor(Color(#colorLiteral(red: 0.2, green: 0.2, blue: 0.2, alpha: 1.0)))
-//                        }
                         LogoView()
                     }
                 )

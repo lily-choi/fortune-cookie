@@ -17,10 +17,16 @@
 		D913023C2AE7DFCD005F46A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913023B2AE7DFCD005F46A9 /* ContentView.swift */; };
 		D913023E2AE7DFF0005F46A9 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */; };
 		D91302402AE7E00B005F46A9 /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = D913023F2AE7E00B005F46A9 /* Sample.json */; };
+		D98E5F362AEB466D00806A89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D98E5F352AEB466C00806A89 /* GoogleService-Info.plist */; };
 		D9AC0EAA2AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9AC0EA92AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf */; };
 		D9AC0EAC2AE94F41009E6CF7 /* KOTRA HOPE.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9AC0EAB2AE94F41009E6CF7 /* KOTRA HOPE.otf */; };
 		D9AC0EAE2AEB3261009E6CF7 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC0EAD2AEB3261009E6CF7 /* FontManager.swift */; };
 		D9AC0EB02AEB32D7009E6CF7 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC0EAF2AEB32D7009E6CF7 /* LogoView.swift */; };
+		D9AC0EB62AEB38C5009E6CF7 /* crumple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9AC0EB52AEB38C5009E6CF7 /* crumple.mp3 */; };
+		D9AC0EB82AEB3D91009E6CF7 /* crun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D9AC0EB72AEB3D91009E6CF7 /* crun.mp3 */; };
+		D9B1C2542AEBE8E30063C672 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D9B1C2532AEBE8E30063C672 /* FirebaseFirestore */; };
+		D9B1C2562AEBEABD0063C672 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B1C2552AEBEABD0063C672 /* FirestoreManager.swift */; };
+		D9B1C2582AEBEE1C0063C672 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9B1C2572AEBEE1C0063C672 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +61,15 @@
 		D913023B2AE7DFCD005F46A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D913023F2AE7E00B005F46A9 /* Sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
+		D98E5F352AEB466C00806A89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D9AC0EA92AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "나눔손글씨 하나손글씨.ttf"; path = "../../../../../../Downloads/나눔손글씨 하나손글씨.ttf"; sourceTree = "<group>"; };
 		D9AC0EAB2AE94F41009E6CF7 /* KOTRA HOPE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KOTRA HOPE.otf"; path = "../../../../../../Downloads/KOTRA HOPE.otf"; sourceTree = "<group>"; };
 		D9AC0EAD2AEB3261009E6CF7 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		D9AC0EAF2AEB32D7009E6CF7 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		D9AC0EB12AEB3413009E6CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D9AC0EB52AEB38C5009E6CF7 /* crumple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crumple.mp3; path = ../../../../../../Downloads/crumple.mp3; sourceTree = "<group>"; };
+		D9AC0EB72AEB3D91009E6CF7 /* crun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crun.mp3; path = ../../../../../../Downloads/crun.mp3; sourceTree = "<group>"; };
+		D9B1C2552AEBEABD0063C672 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B1C2542AEBE8E30063C672 /* FirebaseFirestore in Frameworks */,
+				D9B1C2582AEBEE1C0063C672 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +106,7 @@
 				D91302212AE7DD95005F46A9 /* FortuneCookieTests */,
 				D913022B2AE7DD95005F46A9 /* FortuneCookieUITests */,
 				D913020E2AE7DD91005F46A9 /* Products */,
+				D9B1C2522AEBE8E30063C672 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +123,9 @@
 		D913020F2AE7DD91005F46A9 /* FortuneCookie */ = {
 			isa = PBXGroup;
 			children = (
+				D98E5F352AEB466C00806A89 /* GoogleService-Info.plist */,
 				D9AC0EB12AEB3413009E6CF7 /* Info.plist */,
+				D9AC0EB42AEB38A2009E6CF7 /* Sounds */,
 				D9AC0EA82AE94F23009E6CF7 /* Fonts */,
 				D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */,
 				D913023F2AE7E00B005F46A9 /* Sample.json */,
@@ -118,6 +133,7 @@
 				D9AC0EAF2AEB32D7009E6CF7 /* LogoView.swift */,
 				D91302122AE7DD91005F46A9 /* MainView.swift */,
 				D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */,
+				D9B1C2552AEBEABD0063C672 /* FirestoreManager.swift */,
 				D91302142AE7DD95005F46A9 /* Assets.xcassets */,
 				D91302162AE7DD95005F46A9 /* FortuneCookie.entitlements */,
 				D91302172AE7DD95005F46A9 /* Preview Content */,
@@ -160,6 +176,22 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		D9AC0EB42AEB38A2009E6CF7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC0EB72AEB3D91009E6CF7 /* crun.mp3 */,
+				D9AC0EB52AEB38C5009E6CF7 /* crumple.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		D9B1C2522AEBE8E30063C672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,6 +208,10 @@
 			dependencies = (
 			);
 			name = FortuneCookie;
+			packageProductDependencies = (
+				D9B1C2532AEBE8E30063C672 /* FirebaseFirestore */,
+				D9B1C2572AEBEE1C0063C672 /* FirebaseFirestoreSwift */,
+			);
 			productName = FortuneCookie;
 			productReference = D913020D2AE7DD91005F46A9 /* FortuneCookie.app */;
 			productType = "com.apple.product-type.application";
@@ -248,6 +284,9 @@
 				Base,
 			);
 			mainGroup = D91302042AE7DD91005F46A9;
+			packageReferences = (
+				D98E5F372AEB511D00806A89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D913020E2AE7DD91005F46A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91302192AE7DD95005F46A9 /* Preview Assets.xcassets in Resources */,
+				D98E5F362AEB466D00806A89 /* GoogleService-Info.plist in Resources */,
 				D91302152AE7DD95005F46A9 /* Assets.xcassets in Resources */,
 				D9AC0EAA2AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf in Resources */,
+				D9AC0EB82AEB3D91009E6CF7 /* crun.mp3 in Resources */,
 				D91302402AE7E00B005F46A9 /* Sample.json in Resources */,
 				D9AC0EAC2AE94F41009E6CF7 /* KOTRA HOPE.otf in Resources */,
+				D9AC0EB62AEB38C5009E6CF7 /* crumple.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D913023E2AE7DFF0005F46A9 /* ContentViewModel.swift in Sources */,
+				D9B1C2562AEBEABD0063C672 /* FirestoreManager.swift in Sources */,
 				D9AC0EB02AEB32D7009E6CF7 /* LogoView.swift in Sources */,
 				D91302132AE7DD91005F46A9 /* MainView.swift in Sources */,
 				D91302112AE7DD91005F46A9 /* FortuneCookieApp.swift in Sources */,
@@ -644,6 +687,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D98E5F372AEB511D00806A89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9B1C2532AEBE8E30063C672 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D98E5F372AEB511D00806A89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D9B1C2572AEBEE1C0063C672 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D98E5F372AEB511D00806A89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D91302052AE7DD91005F46A9 /* Project object */;
 }

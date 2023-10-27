@@ -1,32 +1,77 @@
 //
-//  ContentView.swift
-//  FortuneCookie
+//  ContentsView.swift
+//  EveryDayQuote
 //
-//  Created by 최혜지 on 2023/10/24.
+//  Created by Lily on 2023/10/24.
 //
 
 import SwiftUI
 
 struct ContentsView: View {
+    @Environment(\.presentationMode) var presentationMode
     @StateObject var viewModel = ContentViewModel()
     @State var randomItem: ContentViewModel.Item?
+    @State var appeared: Double = 0.0
     
     var body: some View {
-        
-//        Text("문제의 정답은 당신 마음속에 있습니다. 어떻게 하고 싶은지 생각해보세요.").font(.system(size: 12, weight: .light, design: .serif))
         VStack {
-//            List(viewModel.items) {
-//                item in
-//                Text(item.text).font(.system(size: 12, weight: .light, design: .serif))
-//            }
-            if let item = randomItem {
-                Text(item.text)
+            if randomItem == nil {
+                Image("cookie")
+                    .resizable()
+                    .scaledToFit()
+                    .padding(.bottom, 20)
+                    .frame(width: 200, height: 200)
+            }else{
+                if let item = randomItem {
+                    Text(item.text)
+                        .font(.hanafont(.semibold, size: 28))
+                        .frame(minHeight: 200)
+                        .multilineTextAlignment(.center)
+//                        .padding(EdgeInsets(top: 120, leading: 0, bottom: 20, trailing: 0))
+                }
             }
+        
+            Button(action: {
+                if randomItem != nil {
+                    withAnimation{
+                        randomItem = nil
+                        appeared = 0.0
+                    }
+                }else{
+                    withAnimation {
+                        randomItem = viewModel.randomItem()
+                        appeared = 1.0
+                    }
+                }
+            }){
+                Text(randomItem != nil ? "하나 더 열기" : "열어보기")
+                    .font(.mainfont(.semibold, size: 16))
+            }
+            .buttonStyle(.bordered)
+            .tint(.pink)
+   
         }
         .onAppear{
             viewModel.fetchData()
-            randomItem = viewModel.randomItem()
         }
+        .onDisappear {
+            withAnimation{
+                appeared = 0.0
+            }
+        }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading:
+                    Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    }) {
+//                        HStack {
+//                            Text("포춘쿠키 ◡̎")
+//                                .font(.mainfont(.semibold, size: 18))
+//                                .foregroundColor(Color(#colorLiteral(red: 0.2, green: 0.2, blue: 0.2, alpha: 1.0)))
+//                        }
+                        LogoView()
+                    }
+                )
     }
 }
 

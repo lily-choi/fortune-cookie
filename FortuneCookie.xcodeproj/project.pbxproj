@@ -17,6 +17,10 @@
 		D913023C2AE7DFCD005F46A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913023B2AE7DFCD005F46A9 /* ContentView.swift */; };
 		D913023E2AE7DFF0005F46A9 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */; };
 		D91302402AE7E00B005F46A9 /* Sample.json in Resources */ = {isa = PBXBuildFile; fileRef = D913023F2AE7E00B005F46A9 /* Sample.json */; };
+		D9AC0EAA2AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9AC0EA92AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf */; };
+		D9AC0EAC2AE94F41009E6CF7 /* KOTRA HOPE.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9AC0EAB2AE94F41009E6CF7 /* KOTRA HOPE.otf */; };
+		D9AC0EAE2AEB3261009E6CF7 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC0EAD2AEB3261009E6CF7 /* FontManager.swift */; };
+		D9AC0EB02AEB32D7009E6CF7 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC0EAF2AEB32D7009E6CF7 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		D913023B2AE7DFCD005F46A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D913023F2AE7E00B005F46A9 /* Sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sample.json; sourceTree = "<group>"; };
+		D9AC0EA92AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "나눔손글씨 하나손글씨.ttf"; path = "../../../../../../Downloads/나눔손글씨 하나손글씨.ttf"; sourceTree = "<group>"; };
+		D9AC0EAB2AE94F41009E6CF7 /* KOTRA HOPE.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KOTRA HOPE.otf"; path = "../../../../../../Downloads/KOTRA HOPE.otf"; sourceTree = "<group>"; };
+		D9AC0EAD2AEB3261009E6CF7 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		D9AC0EAF2AEB32D7009E6CF7 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		D9AC0EB12AEB3413009E6CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +110,12 @@
 		D913020F2AE7DD91005F46A9 /* FortuneCookie */ = {
 			isa = PBXGroup;
 			children = (
+				D9AC0EB12AEB3413009E6CF7 /* Info.plist */,
+				D9AC0EA82AE94F23009E6CF7 /* Fonts */,
 				D91302102AE7DD91005F46A9 /* FortuneCookieApp.swift */,
 				D913023F2AE7E00B005F46A9 /* Sample.json */,
 				D913023B2AE7DFCD005F46A9 /* ContentView.swift */,
+				D9AC0EAF2AEB32D7009E6CF7 /* LogoView.swift */,
 				D91302122AE7DD91005F46A9 /* MainView.swift */,
 				D913023D2AE7DFF0005F46A9 /* ContentViewModel.swift */,
 				D91302142AE7DD95005F46A9 /* Assets.xcassets */,
@@ -136,6 +148,16 @@
 				D913022E2AE7DD95005F46A9 /* FortuneCookieUITestsLaunchTests.swift */,
 			);
 			path = FortuneCookieUITests;
+			sourceTree = "<group>";
+		};
+		D9AC0EA82AE94F23009E6CF7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D9AC0EAB2AE94F41009E6CF7 /* KOTRA HOPE.otf */,
+				D9AC0EA92AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf */,
+				D9AC0EAD2AEB3261009E6CF7 /* FontManager.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +266,9 @@
 			files = (
 				D91302192AE7DD95005F46A9 /* Preview Assets.xcassets in Resources */,
 				D91302152AE7DD95005F46A9 /* Assets.xcassets in Resources */,
+				D9AC0EAA2AE94F3A009E6CF7 /* 나눔손글씨 하나손글씨.ttf in Resources */,
 				D91302402AE7E00B005F46A9 /* Sample.json in Resources */,
+				D9AC0EAC2AE94F41009E6CF7 /* KOTRA HOPE.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D913023E2AE7DFF0005F46A9 /* ContentViewModel.swift in Sources */,
+				D9AC0EB02AEB32D7009E6CF7 /* LogoView.swift in Sources */,
 				D91302132AE7DD91005F46A9 /* MainView.swift in Sources */,
 				D91302112AE7DD91005F46A9 /* FortuneCookieApp.swift in Sources */,
 				D913023C2AE7DFCD005F46A9 /* ContentView.swift in Sources */,
+				D9AC0EAE2AEB3261009E6CF7 /* FontManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FortuneCookie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FortuneCookie/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -465,6 +492,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FortuneCookie/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FortuneCookie/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

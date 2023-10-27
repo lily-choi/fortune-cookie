@@ -2,7 +2,7 @@
 //  FortuneCookieApp.swift
 //  FortuneCookie
 //
-//  Created by 최혜지 on 2023/10/24.
+//  Created by Lily on 2023/10/24.
 //
 
 import SwiftUI
